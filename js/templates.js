@@ -9,15 +9,17 @@ const homeTemplateSource = `
     <h2>Minhas Tarefas</h2>
     
     <div class="controls">
-        <select id="filter-status" title="Filtrar tarefas">
+        <label for="filter-status">Filtrar por:</label>
+        <select id="filter-status" title="Filtrar tarefas" label="Filtrar Tarefas">
             <option value="all">Todas</option>
             <option value="pending">Pendentes</option>
             <option value="completed">Concluídas</option>
         </select>
         
+        <label for="sort-order">Ordenar por:</label>
         <select id="sort-order" title="Ordenar por título">
-            <option value="asc">A to Z</option>
-            <option value="desc">Z to A</option>
+            <option value="asc">Crescente: A - Z</option>
+            <option value="desc">Decrescente Z - A</option>
         </select>
         
         <!-- BOTÃO EXPORTAR -->
@@ -25,13 +27,13 @@ const homeTemplateSource = `
             <i class="fas fa-download"></i> Exportar
         </button>
 
-        <img src="imagens/tarefas.jpg" alt="Tarefas" width="150">        
-
+        <img src="imagens/tarefas.jpg" alt="Tarefas" width="100" align="right">
+             
         <!-- BOTÃO IMPORTAR -->
         <label id="ex_import-btn" class="btn-import" title="Importar tarefas de um arquivo JSON">
             <i class="fas fa-upload"></i> Importar
             <input type="file" id="import-file" accept=".json" style="display: none;">
-        </label>
+        </label>        
 
     </div>
 
@@ -79,13 +81,12 @@ const addTemplateSource = `
                   placeholder="Detalhe o que precisa ser feito..."></textarea>
         <div class="error" id="add-description-error"></div>
 
-        <!--
-        <button type="submit">Adicionar Tarefa</button>
-        -->
 
-        <button type="submit" class="btn-ok" title="Adicionar Tarefa">
+        <button type="submit" class="btn-add" title="Adicionar Tarefa">
             <i class="fas fa-add"></i> Adicionar Tarefa
-        </button>        
+        </button>    
+
+        <img src="imagens/escrever.png" alt="Adicionar Tarefa" width="50" align="right">    
 
     </form>
 `;
@@ -103,15 +104,11 @@ const editTemplateSource = `
         <textarea id="edit-description" name="description" required minlength="10">{{description}}</textarea>
         <div class="error" id="edit-description-error"></div>
 
-        <!--
-        <button type="submit">Salvar Alterações</button>
-        -->
-
-        <button type="submit" class="btn-ok" title="Salvar Alterações">
+        <button type="submit" class="btn-save" title="Salvar Alterações">
             <i class="fas fa-save"></i> Salvar Alterações
-        </button>        
-
-
+        </button>       
+        
+        <img src="imagens/salvar.png" alt="Salvar Alterações" width="50" align="right">
 
     </form>
 `;
