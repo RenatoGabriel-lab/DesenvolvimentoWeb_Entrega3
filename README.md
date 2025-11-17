@@ -36,4 +36,13 @@ Uma aplicação web completa de lista de tarefas (To-Do List) desenvolvida com *
 2. Abra o arquivo `index.html` no navegador
 3. Não precisa de servidor ou instalação
 
+## Capturas de tela
+![Tela_principal](https://github.com/user-attachments/assets/516713f6-d906-4ee2-a6a4-860105d77a58)
+![Tela_principal_noturno](https://github.com/user-attachments/assets/c9c6aa1b-956a-4e52-bb05-f1c62dfea33b)
+
+![Tela_adicionar](https://github.com/user-attachments/assets/0d3cc02a-dd63-4c73-9419-a99f4524fd65)
+![Tela_adicionar_noturno](https://github.com/user-attachments/assets/d7c5b263-c9ab-41ec-ac75-56142d8d55c4)
+
+
+
 
