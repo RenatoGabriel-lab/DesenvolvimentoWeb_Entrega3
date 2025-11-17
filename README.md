@@ -5,7 +5,7 @@ Entrega III – Interatividade e Funcionalidades
 
 # Projeto To-Do List - Gerenciador de Tarefas
 
-Uma aplicação web completa de lista de tarefas (To-Do List) desenvolvida com **HTML, CSS e JavaScript puro** (Vanilla JS), sem frameworks. Totalmente funcional offline, com persistência de dados no `localStorage`.
+Uma aplicação web completa de lista de tarefas (To-Do List) desenvolvida com **HTML, CSS e JavaScript** (Vanilla JS), sem frameworks. Totalmente funcional offline, com persistência de dados no `localStorage`.
 
 ## Funcionalidades
 
@@ -34,9 +34,6 @@ Uma aplicação web completa de lista de tarefas (To-Do List) desenvolvida com *
 
 1. Clone ou baixe o repositório
 2. Abra o arquivo `index.html` no navegador
-3. Pronto! Não precisa de servidor ou instalação
+3. Não precisa de servidor ou instalação
 
-```bash
-git clone https://github.com/seu-usuario/todo-list-spa.git
-cd todo-list-spa
-# Apenas abra index.html no navegador
+
